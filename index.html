@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obsession Restaurant</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="headerContainer container">
+            <a href="#" class="logo">Obsession</a>
+            <nav class="navbar">
+                <ul class="menu">
+                    <li class="list"><a href="#hero" class="active">Home</a></li>
+                    <li class="list"><a href="#menu">Menu</a></li>
+                    <li class="list"><a href="#about">About</a></li>
+                    <li class="list"><a href="#book">Book Table</a></li>
+                    <i class='bx bx-x close_icon'></i>
+                </ul>
+                <i class='bx bx-menu toggle_icon'></i>
+            </nav>
+        </div>
+    </header>
+    <section class="hero" id="hero">
+        <div class="heroContainer container swiper">
+            <div class="swiper-wrapper">
+                <div class="heroContent-item swiper-slide">
+                    <h1>Obsession Restaurant</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, repellat <br> 
+                        error consequatur laudantium explicabo ipsa. Voluptatum doloribus autem rerum labore <br> 
+                        dolor veniam optio ipsam molestiae. Non dignissimos cupiditate aliquam earum!</p>
+                    <button class="btn">Order Now</button>
+                </div>
+                <div class="heroContent-item swiper-slide">
+                    <h1>Obsession Restaurant</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, repellat <br> 
+                        error consequatur laudantium explicabo ipsa. Voluptatum doloribus autem rerum labore <br> 
+                        dolor veniam optio ipsam molestiae. Non dignissimos cupiditate aliquam earum!</p>
+                    <button class="btn">Order Now</button>
+                </div>
+                <div class="heroContent-item swiper-slide">
+                    <h1>Obsession Restaurant</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, repellat <br> 
+                        error consequatur laudantium explicabo ipsa. Voluptatum doloribus autem rerum labore <br> 
+                        dolor veniam optio ipsam molestiae. Non dignissimos cupiditate aliquam earum!</p>
+                    <button class="btn">Order Now</button>
+                </div>
+            </div>
+            <div class="swipper-pagination"></div>
+        </div>
+    </section>
+    <section class="offer">
+        <div class="offerContainer container">
+            <div class="offerItem">
+                <div class="offerImgBox">
+                    <img src="./images/o1.jpg" alt="" class="imgFluid">
+                </div>
+                <div class="offerContent">
+                    <h3>Tasty Thursdays</h3>
+                    <span class="off"><b>20%</b>off</span>
+                    <button class="btn">
+                        <span>Order Now</span>
+                        <i class='bx bxs-cart'></i>
+                    </button>
+                </div>
+            </div>
+            <div class="offerItem">
+                <div class="offerImgBox">
+                    <img src="./images/o2.jpg" alt="" class="imgFluid">
+                </div>
+                <div class="offerContent">
+                    <h3>Pizza Thursdays</h3>
+                    <span class="off"><b>15%</b>off</span>
+                    <button class="btn">
+                        <span>Order Now</span>
+                        <i class='bx bxs-cart'></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="food" id="menu">
+        <h2 class="sectionTitle">Our Menu</h2>
+
+        <ul>
+            <li class="filter active" data-filter="all">All</li>
+            <li class="filter" data-filter=".burger">Burger</li>
+            <li class="filter" data-filter=".pizza">Pizza</li>
+            <li class="filter" data-filter=".pasta">Pasta</li>
+            <li class="filter" data-filter=".fries">Fries</li>
+        </ul>
+        <div class="foodContainer container">
+            <div class="foodItem pizza">
+                <div class="foodImgBox">
+                    <img src="./images/f1.png" alt="" class="imgFluid">
+                </div>
+                <div class="foodContent">
+                    <h3>Pizza Quattro Carni</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum itaque, perferendis dolorem officiis similique quasi sapiente! At praesentium sint sunt!</p>
+                    <div class="foodFooter">
+                        <span>20$</span>
+                        <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="foodItem burger">
+                <div class="foodImgBox">
+                    <img src="./images/f2.png" alt="" class="imgFluid">
+                </div>
+                <div class="foodContent">
+                    <h3>Beef Burger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum itaque, perferendis dolorem officiis similique quasi sapiente! At praesentium sint sunt!</p>
+                    <div class="foodFooter">
+                        <span>15$</span>
+                        <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="foodItem pizza">
+                <div class="foodImgBox">
+                    <img src="./images/f3.png" alt="" class="imgFluid">
+                </div>
+                <div class="foodContent">
+                    <h3>Traditional Pizza</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum itaque, perferendis dolorem officiis similique quasi sapiente! At praesentium sint sunt!</p>
+                    <div class="foodFooter">
+                        <span>25$</span>
+                        <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="foodItem pasta">
+                <div class="foodImgBox">
+                    <img src="./images/f4.png" alt="" class="imgFluid">
+                </div>
+                <div class="foodContent">
+                    <h3>Delicious Pasta</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum itaque, perferendis dolorem officiis similique quasi sapiente! At praesentium sint sunt!</p>
+                    <div class="foodFooter">
+                        <span>15$</span>
+                        <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="foodItem fries">
+                <div class="foodImgBox">
+                    <img src="./images/f5.png" alt="" class="imgFluid">
+                </div>
+                <div class="foodContent">
+                    <h3>Delicious Fries</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum itaque, perferendis dolorem officiis similique quasi sapiente! At praesentium sint sunt!</p>
+                    <div class="foodFooter">
+                        <span>5$</span>
+                        <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="foodItem pizza">
+                <div class="foodImgBox">
+                    <img src="./images/f6.png" alt="" class="imgFluid">
+                </div>
+                <div class="foodContent">
+                    <h3>Pizza House</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum itaque, perferendis dolorem officiis similique quasi sapiente! At praesentium sint sunt!</p>
+                    <div class="foodFooter">
+                        <span>22$</span>
+                        <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="foodItem burger">
+                <div class="foodImgBox">
+                    <img src="./images/f7.png" alt="" class="imgFluid">
+                </div>
+                <div class="foodContent">
+                    <h3>Crispy Burger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum itaque, perferendis dolorem officiis similique quasi sapiente! At praesentium sint sunt!</p>
+                    <div class="foodFooter">
+                        <span>12$</span>
+                        <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="foodItem burger">
+                <div class="foodImgBox">
+                    <img src="./images/f8.png" alt="" class="imgFluid">
+                </div>
+                <div class="foodContent">
+                    <h3>Chicken Burger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum itaque, perferendis dolorem officiis similique quasi sapiente! At praesentium sint sunt!</p>
+                    <div class="foodFooter">
+                        <span>10$</span>
+                        <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="foodItem pasta">
+                <div class="foodImgBox">
+                    <img src="./images/f9.png" alt="" class="imgFluid">
+                </div>
+                <div class="foodContent">
+                    <h3>Cheesy Pasta</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum itaque, perferendis dolorem officiis similique quasi sapiente! At praesentium sint sunt!</p>
+                    <div class="foodFooter">
+                        <span>16$</span>
+                        <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn">View More</button>
+    </section>
+    <section class="about" id="about">
+        <div class="aboutContainer container">
+            <div class="aboutImgBox">
+                <img src="./images/about-img.png" alt="" class="imgFluid">
+            </div>
+            <div class="aboutContent">
+                <h2 class="sectionTitle">We Are Obsession</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis eos quis, accusantium odio ea soluta quod hic laborum sed nisi quas molestias deserunt numquam illum excepturi quibusdam aspernatur minus iste quae iusto architecto quam pariatur! Nobis assumenda laboriosam quaerat voluptate dolorem expedita aliquid? Cumque totam numquam nihil itaque esse adipisci.</p>
+                <button class="btn">Read More</button>
+            </div>
+        </div>
+    </section>
+    <section class="book" id="book">
+        <h2 class="sectionTitle">Book A Table</h2>
+        <div class="bookContainer container">
+            <div class="formContainer">
+                <input type="text" placeholder="Your Name">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Your Email">
+                <div class="select">
+                    <span>How many people?</span>
+                    <ul class="list">
+                        <li data-value class="option">How many people?</li>
+                        <li data-value class="option">1</li>
+                        <li data-value class="option">2</li>
+                        <li data-value class="option">3</li>
+                        <li data-value class="option">4</li>
+                        <li data-value class="option">5</li>
+                        <li data-value class="option">6</li>
+                    </ul>
+                </div>
+                <input type="date">
+                <button class="btn">Book Now</button>
+            </div>
+            <div class="mapContainer">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1197.8676684381699!2d26.09976995551184!3d44.432638972271484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sro!2sro!4v1703775025137!5m2!1sro!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>  
+    </section>
+    <section class="client">
+        <h2 class="sectionTitle">Customers FeedBack</h2>
+        <div class="clientContainer container swiper">
+            <div class="swiper-wrapper">
+                <div class="clientItem swiper-slide">
+                    <div class="clientContent">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat alias omnis possimus nam voluptates exercitationem!</p>
+                        <h3>Sasha Banks</h3>
+                        <span>magna aliqua</span>
+                    </div>
+                    <div class="clientImg">
+                        <img src="./images/client1.jpg" alt="" class="imgFluid">
+                    </div>
+                </div>
+                <div class="clientItem swiper-slide">
+                    <div class="clientContent">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat alias omnis possimus nam voluptates exercitationem.</p>
+                        <h3>Shawn Michaels</h3>
+                        <span>magna aliqua</span>
+                    </div>
+                    <div class="clientImg">
+                        <img src="./images/client2.jpg" alt="" class="imgFluid">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footerContainer container">
+            <div class="footerContent">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class='bx bxs-location-plus'></i>Location</li>
+                    <li><i class='bx bxs-phone' ></i> Call Us +01 (123) 456 789</li>
+                    <li><i class='bx bxs-envelope' ></i>obsessionrestaurant@gmail.com</li>
+                </ul>
+            </div>
+            <div class="footerDetail">
+                <h3>Obsession</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime dicta quam quibusdam possimus quisquam commodi doloremque nihil non deserunt cupiditate!</p>
+                <div class="socialLink">
+                    <a href="#"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#"><i class='bx bxl-github' ></i></a>
+                </div>
+            </div>
+            <div class="footerTime">
+                <h3>Opening Hours</h3>
+                <span>Everyday</span>
+                <span>10.00 AM - 10.00 PM</span>
+            </div>
+        </div>
+        <div class="footerInfo">
+            <p>&#169; 2023 All Rights Reserved By Obsession Restaurant</p>
+        </div>
+    </section>
+    <a href="#" class="btnTop"><i class='bx bxs-up-arrow'></i></a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
